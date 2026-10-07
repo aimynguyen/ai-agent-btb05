@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa
+id_ed25519
+
+# Local secrets
+secrets/
